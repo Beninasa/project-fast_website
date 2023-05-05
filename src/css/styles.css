@@ -18,6 +18,10 @@
   --gray: #c6cdd1;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Epilogue', sans-serif;
   color: var(--black);
@@ -56,7 +60,7 @@ body {
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 335px;
+    width: 375px;
   }
 }
 
@@ -67,7 +71,7 @@ body {
   }
 
   .container {
-    width: 704px;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -80,7 +84,7 @@ body {
   }
 
   .container {
-    width: 1176px;
+    width: 1200px;
     padding-left: 12px;
     padding-right: 12px;
   }
