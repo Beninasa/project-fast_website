@@ -43,8 +43,8 @@
   }
 }
 
-.sale__img-list {
-}
+/* .sale__img-list {
+} */
 
 .sale__img-item {
   display: flex;
@@ -57,8 +57,8 @@
   margin-bottom: 10px;
 }
 
-.sale_img {
-}
+/* .sale_img {
+} */
 
 .sale__img-hero-wrapper {
   background-color: var(--black);
@@ -69,8 +69,8 @@
     padding: 0;
   }
 }
-.sale__img-hero {
-}
+/* .sale__img-hero {
+} */
 .sale__description-section {
   @media (min-width: 1200px) {
     width: 369px;
