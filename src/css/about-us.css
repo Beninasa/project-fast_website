@@ -1,4 +1,8 @@
 /*---------- Mobile-375px ------------*/
+.section {
+    background-color: #fbfbfb;
+}
+
 .about__text-wrap {
     display: flex;
     flex-direction: column;
@@ -38,9 +42,8 @@
     .about__title {
         font-size: 40px;
         line-height: 1.1;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        white-space: nowrap;
+
     }
 
     .about__text-wrap {
@@ -94,8 +97,8 @@
         margin-right: 80px;
     }
 
-    .about__item {
+    /* .about__item {
         basis-flex: ((100% - 40px) / 2);
-    }
+    } */
 
 }
