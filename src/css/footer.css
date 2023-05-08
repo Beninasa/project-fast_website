@@ -1,5 +1,7 @@
 .footer {
   background: var(--dark-green);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .container-footer {
@@ -9,41 +11,9 @@
   padding-right: 20px;
 }
 
-@media screen and (min-width: 375px) {
-  .container-footer {
-    width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container-footer {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 40px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container-footer {
-    width: 1280px;
-    padding-left: 132px;
-    padding-right: 132px;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .footer {
-    padding-top: 40px;
-    padding-bottom: 22px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 80px;
-    padding-bottom: 20px;
   }
 }
 
@@ -52,12 +22,6 @@
     padding-top: 104px;
     padding-bottom: 32px;
   }
-}
-
-.footer-wrapp {
-  display: block;
-  padding-top: 0;
-  height: 100%;
 }
 
 .contacts-footer {
@@ -87,7 +51,6 @@
 }
 
 .footer-link {
-  text-decoration: none;
   display: inline-block;
 }
 
@@ -218,8 +181,8 @@
 }
 
 .footer-media-link {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
@@ -235,21 +198,8 @@
 
 .footer-media-icon {
   fill: rgba(255, 255, 255, 0.8);
-  width: 24px;
-  height: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-media-link {
-    width: 44px;
-    height: 44px;
-  }
-
-  .footer-media-icon {
-    fill: rgba(255, 255, 255, 0.8);
-    width: 28px;
-    height: 28px;
-  }
+  width: 28px;
+  height: 28px;
 }
 
 .footer-rules {
@@ -261,6 +211,27 @@
     display: flex;
     justify-content: space-between;
     margin-top: 152px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-rules-copyright {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: var(--gray);
+  }
+
+  .footer-policy {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-terms {
+    margin-left: 18px;
+    font-size: 14px;
+    line-height: 1.28;
   }
 }
 
@@ -296,25 +267,4 @@
   text-align: right;
   letter-spacing: -0.02em;
   color: var(--gray);
-}
-
-@media screen and (min-width: 768px) {
-  .footer-rules-copyright {
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    color: var(--gray); /* rgba(198, 205, 209, 0.9);*/
-  }
-
-  .footer-policy {
-    font-size: 14px;
-    line-height: 1.29;
-  }
-
-  .footer-terms {
-    margin-left: 18px;
-    font-size: 14px;
-    line-height: 1.28;
-  }
 }
