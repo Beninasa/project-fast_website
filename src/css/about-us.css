@@ -1,3 +1,4 @@
+/*---------- Mobile-375px ------------*/
 .about__text-wrap {
     display: flex;
     flex-direction: column;
@@ -30,6 +31,8 @@
     height: 365px;
     object-fit: cover;
 }
+
+/*---------- Tablet-768px ------------*/
 
 @media screen and (min-width:768px) {
     .about__title {
@@ -66,13 +69,13 @@
     }
 }
 
+/*---------- Desktop-1280px ------------*/
+
 @media screen and (min-width:1280px) {
 
     .about__text-wrap {
         width: 1280px;
-        /* justify-content: space-between; */
         gap: 110px;
-
     }
 
     .about__title {
@@ -94,7 +97,5 @@
     .about__item {
         basis-flex: ((100% - 40px) / 2);
     }
-
-
 
 }
