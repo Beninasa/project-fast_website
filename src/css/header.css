@@ -147,7 +147,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--white);
-    transition: border var(--transition);
+    transition: border 250ms linear;
     padding: 18px 35px;
   }
   .contacts-tel:hover,
