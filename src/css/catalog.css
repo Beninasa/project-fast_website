@@ -63,15 +63,9 @@
   margin-bottom: 14px;
 }
 .catalog-list-image {
-  padding: 43px 30px;
-
   width: 335px;
   height: 360px;
-}
-@media screen and (max-width: 374px) {
-  .catalog-list-image {
-    padding: 43px 10px;
-  }
+  object-fit: none;
 }
 @media screen and (min-width: 768px) {
   .catalog-list-image {
@@ -81,7 +75,6 @@
 }
 @media screen and (min-width: 1280px) {
   .catalog-list-image {
-    padding: 26px 0 25px;
     width: 276px;
     height: 325px;
   }
