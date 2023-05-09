@@ -59,6 +59,7 @@ max-width: 276px;
     .modal-menu {
         max-width: 904px;
         max-height: 694px;
+        gap: 40px;
 
         flex-direction: row;
     }
