@@ -2,7 +2,7 @@
   background-color: var(--black);
 }
 .header-container {
-  padding: 29px 0;
+  padding: 20px 0;
 }
 .logo {
   font-weight: 400;
@@ -35,7 +35,6 @@
   padding: 0;
   line-height: 0.5;
   font-family: none;
-  /* transition: stroke var(--transition); */
 }
 
 /* ======== mobile menu================= */
@@ -43,17 +42,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  right: 0;
 }
 .mob-menu {
   position: fixed;
   z-index: 3;
   top: 0;
-  left: 0;
+  right: -100vw;
   width: 100vw;
   height: 100vh;
   background: var(--dark-green);
   padding: 29px 20px;
-  display: none;
+  transition: right 500ms;
 }
 .mob-menu-header {
   display: flex;
@@ -73,7 +73,7 @@
   margin-top: 200px;
   margin-bottom: auto;
 }
-.mob-nav-list-item {
+.mob-nav-list-item-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -147,7 +147,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--white);
-    transition: border var(--transition);
+    transition: border 250ms linear;
     padding: 18px 35px;
   }
   .contacts-tel:hover,
