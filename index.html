@@ -21,7 +21,7 @@
 
     
     <script type="module" crossorigin src="/project-fast_website/assets/index-de2a6b0f.js"></script>
-    <link rel="stylesheet" href="/project-fast_website/assets/index-f6563a14.css">
+    <link rel="stylesheet" href="/project-fast_website/assets/index-815ba0a4.css">
   </head>
   <body>
     <header class="header">
@@ -211,12 +211,12 @@
         <div class="swiper-buttons">
           <button type="button" class="button-prev hero-button">
             <svg class="hero-button-icon" width="32" height="32">
-              <use href="/project-fast_website/assets/icons-c51280e4.svg#icon-left-1"></use>
+              <use href="/project-fast_website/assets/icons-1c4dea36.svg#icon-left-1"></use>
             </svg>
           </button>
           <button type="button" class="button-next hero-button">
             <svg class="hero-button-icon" width="32" height="32">
-              <use href="/project-fast_website/assets/icons-c51280e4.svg#icon-right-1"></use>
+              <use href="/project-fast_website/assets/icons-1c4dea36.svg#icon-right-1"></use>
             </svg>
           </button>
           <div class="hero-swiper-pagination"></div>
@@ -788,7 +788,7 @@
                 <span class="catalog-watch-price">&#x20ac;400</span>
              </li>
         </Ul>
-        <button type="button" class="catalog-modal-button">BUY NOW</button>
+        <button type="button" class="catalog-modal-button" data-modal-open>BUY NOW</button>
     </div>
 </section>
 
@@ -1046,21 +1046,21 @@
         <li class="footer-media-item">
           <a class="footer-media-link" href="https://www.facebook.com">
             <svg class="footer-media-icon">
-              <use href="/project-fast_website/assets/icons-c51280e4.svg#facebook"></use>
+              <use href="/project-fast_website/assets/icons-1c4dea36.svg#facebook"></use>
             </svg>
           </a>
         </li>
         <li class="footer-media-item">
           <a class="footer-media-link" href="https://www.instagram.com">
             <svg class="footer-media-icon">
-              <use href="/project-fast_website/assets/icons-c51280e4.svg#instagram"></use>
+              <use href="/project-fast_website/assets/icons-1c4dea36.svg#instagram"></use>
             </svg>
           </a>
         </li>
         <li class="footer-media-item">
           <a class="footer-media-link" href="https://www.youtube.com/">
             <svg class="footer-media-icon">
-              <use href="/project-fast_website/assets/icons-c51280e4.svg#youtube"></use>
+              <use href="/project-fast_website/assets/icons-1c4dea36.svg#youtube"></use>
             </svg>
           </a>
         </li>
@@ -1081,7 +1081,81 @@
     </footer>
 
     <!-- Aleksandr Modal -->
-    
+    <div class="overlay is-hidden" data-modal>
+  <div class="modal-menu">
+    <button class="modal-menu-close" data-modal-close type="button">
+      <svg class="menu-close-icon" width="12" height="12">
+        <use href="/project-fast_website/assets/icons-1c4dea36.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <div class="modal-watch-div">
+      <img
+        class="modal-watch-image"
+        src="/project-fast_website/assets/watch2-b007ab70.jpg"
+        srcset="/project-fast_website/assets/watch2@2x-23004850.jpg 2x"
+        width="276"
+        height="274"
+        loading="lazy"
+        alt="photo of watch"
+      />
+      <p class="catalog-watch-name">Avondale Watch Police For Men</p>
+      <span class="catalog-watch-price">&#x20ac;800</span>
+    </div>
+    <form class="modal-form">
+      <div class="form-field">
+        <label class="form-label" for="name">Full Name</label>
+        <input
+          class="form-input"
+          required
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+          title="Username must be two words separated by space."
+          type="text"
+          placeholder="Enter your full name"
+          id="name"
+          name="user-name"
+        />
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="email">Email</label>
+        <input
+          class="form-input"
+          required
+          type="email"
+          placeholder="Enter your email"
+          id="email"
+          name="user-email"
+        />
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="name">Card number</label>
+        <input
+          class="form-input"
+          type="tel"
+          placeholder="Card number"
+          maxlength="12"
+          id="name"
+          name="card-number"
+        />
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="comments">Comments</label>
+        <textarea
+          class="form-input comment"
+          placeholder="Enter your text"
+          id="comments"
+          name="user-comments"
+        ></textarea>
+      </div>
+      <button class="form-submit" type="submit">SUBMIT</button>
+      <p class="modal-policy">
+        By clicking on “Submit” button, you agree to our
+        <a class="policy-link" href="">Privacy Policy</a>
+        , and allow Promodo to use this information for marketing purposes.
+      </p>
+    </form>
+  </div>
+</div>
+
 
     
     
