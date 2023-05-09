@@ -3,6 +3,10 @@
   padding-top: 49px;
   padding-bottom: 40px;
 }
+.hero-container {
+  position: relative;
+}
+
 .hero-title {
   font-weight: 600;
   font-size: 32px;
@@ -129,7 +133,7 @@
     margin-bottom: 0px;
     position: absolute;
     right: 32px;
-    top: 464px;
+    top: 318px;
   }
 
   .hero-button {
@@ -164,9 +168,8 @@
   }
 
   .hero-content-pos {
-    position: absolute;
-    right: 52px;
-    top: 148px;
+    right: 12px;
+    top: 0px;
   }
 
   .hero-content {
