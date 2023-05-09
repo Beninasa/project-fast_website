@@ -51,9 +51,10 @@
 }
 
 .hero-button {
-  padding: 0;
-  display: block;
+  padding: 0px;
+  display: flex;
   align-items: center;
+  justify-content: center;
   border: transparent;
   border-radius: 8px;
   background-color: var(--black);
@@ -62,6 +63,7 @@
 }
 
 .hero-button-icon {
+  fill: var(--black);
   stroke: rgba(255, 255, 255, 0.5);
   transition: stroke 250ms linear;
 }
