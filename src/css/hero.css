@@ -126,6 +126,7 @@
   }
 
   .hero-content-pos {
+    margin-bottom: 0px;
     position: absolute;
     right: 32px;
     top: 464px;
@@ -147,8 +148,19 @@
     padding-bottom: 80px;
   }
 
+  .hero-content-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+  }
+
   .hero-title {
     width: 750px;
+  }
+
+  .swiper-buttons {
+    margin-bottom: 0px;
   }
 
   .hero-content-pos {
@@ -162,7 +174,7 @@
   }
 
   .hero-images {
-    margin: auto;
+    margin-left: 64px;
     width: 676px;
     height: 394px;
   }
