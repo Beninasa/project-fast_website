@@ -14,7 +14,7 @@
   align-items: center;
 }
 .header-logo-icon {
-  width: 22px;
+  /* width: 22px; */
 }
 .header-nav {
   display: none;
