@@ -22,6 +22,7 @@
                     <input 
                         class="form-input" 
                         required 
+                        pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="Username must be two words separated by space." 
                         type="text" 
                         placeholder="Enter your full name"
                         id="name"
@@ -40,10 +41,10 @@
             <div class="form-field">
                 <label class="form-label" for="name">Card number</label>
                     <input 
-                        class="form-input" 
-                        required 
+                        class="form-input"  
                         type="tel" 
                         placeholder="Card number"
+                        maxlength="12"
                         id="name"
                         name="card-number">
             </div>
@@ -55,7 +56,7 @@
                     name="user-comments"></textarea> 
                         
             </div>
-            <button class="form-submit" type="button">SUBMIT</button>
+            <button class="form-submit" type="submit">SUBMIT</button>
             <p class="modal-policy">By clicking on “Submit” button, you agree to our <a class="policy-link" href="">Privacy Policy</a>, and allow Promodo to use this information for marketing purposes.</p>
         </form>
     </div>

@@ -4,6 +4,10 @@
     visibility: hidden;
     pointer-events: none;
 }
+
+.catalog-list-image {
+object-fit: none;
+}
 /* *********************************************** */
 
 
@@ -16,7 +20,8 @@
     background-color:  rgb(30, 40, 39, 0.8);
 }
 .modal-menu {
-    width: 95%;;
+    width: 95%;
+    max-height: 1073px;
     background-color: var(--white);
     position: absolute;
     top: 50%;
