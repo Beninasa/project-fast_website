@@ -4,7 +4,7 @@
 .header-container {
   padding: 20px 0;
 }
-.logo {
+.header-logo {
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
 }
-.logo-icon {
+.header-logo-icon {
   width: 22px;
 }
 .header-nav {
@@ -108,11 +108,11 @@
   .header-menu-btn {
     display: none;
   }
-  .logo {
+  .header-logo {
     font-size: 15px;
     margin-right: 80px;
   }
-  .logo-icon {
+  .header-logo-icon {
     width: 27px;
   }
   .nav-list {
