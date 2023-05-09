@@ -5,9 +5,12 @@
     pointer-events: none;
 }
 
-.catalog-list-image {
+.modal-watch-image {
 object-fit: none;
+height: 325px;
+max-width: 276px;
 }
+
 /* *********************************************** */
 
 
@@ -41,8 +44,15 @@ object-fit: none;
         padding: 40px 40px;
         max-width: 744px;
         max-height: 670px;
+        gap: 20px;
+        align-items: start;
 
         flex-direction: row;
+    }
+}
+@media screen and (min-width: 768px) {
+    .modal-menu {
+        gap: 20px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -73,24 +83,17 @@ object-fit: none;
     background-color: gray;
 }
 .modal-watch-div {
-max-width: 100%;
 max-height: 100%;
 margin-bottom: 40px;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .modal-watch-div {
         display: block;
         max-width: 100%;
         max-height: 100%;
-        margin-bottom: auto;
-        margin-right: 20px;
+        
         }
-}
-@media screen and (min-width: 1280px) {
-    .modal-watch-div {
-        margin-right: 40px;
-    }
-}
+} */
 .modal-form {
     display: flex;
     flex-direction: column;
