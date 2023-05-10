@@ -8,9 +8,6 @@
     padding: 80px 0 80px;
   }
 }
-.section-catalog {
-  background-color: var(--white);
-}
 .catalog-title {
   font-size: 32px;
   line-height: 1.25;
@@ -54,14 +51,12 @@
   .catalog-list-item {
     max-width: 336px;
     flex-basis: calc((100% - 32px) / 2);
-    
   }
 }
 @media screen and (min-width: 1280px) {
   .catalog-list-item {
     max-width: 276px;
     flex-basis: calc((100% - 72px) / 4);
-
   }
 }
 .image-description-wrap {
@@ -73,7 +68,6 @@
   object-position: center;
   margin-left: auto;
   margin-right: auto;
-
 }
 @media screen and (min-width: 768px) {
   .catalog-list-image {

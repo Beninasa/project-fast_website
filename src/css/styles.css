@@ -46,6 +46,10 @@ body {
   padding-bottom: 40px;
 }
 
+.section:last-child {
+  padding-bottom: 80px;
+}
+
 .container {
   width: 100%;
   padding-left: 20px;
@@ -70,6 +74,10 @@ body {
     padding-bottom: 64px;
   }
 
+  .section:last-child {
+    padding-bottom: 128px;
+  }
+
   .container {
     width: 768px;
     padding-left: 32px;
@@ -81,6 +89,10 @@ body {
   .section {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  .section:last-child {
+    padding-bottom: 160px;
   }
 
   .container {

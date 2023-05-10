@@ -67,6 +67,10 @@
   height: 40px;
 }
 
+.footer-logo-link {
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 768px) {
   .footer-logo-link {
     width: 50px;
@@ -80,7 +84,6 @@
 }
 
 .footer-phone {
-  margin-top: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -114,18 +117,18 @@
   }
 }
 
-.footer-menu {
+.footer-pos {
   margin-left: 76px;
 }
 
 @media screen and (min-width: 375px) {
-  .footer-menu {
+  .footer-pos {
     margin-left: 131px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .footer-menu {
+  .footer-pos {
     margin-left: 0px;
   }
 }

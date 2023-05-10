@@ -136,6 +136,7 @@
     margin-left: auto;
   }
   .contacts-tel {
+    display: block;
     background: var(--dark-green);
     border: 1px solid transparent;
     border-radius: 8px;
